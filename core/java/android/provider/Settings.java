@@ -3525,6 +3525,12 @@ public final class Settings {
         public static final String LOCKSCREEN_ROTATION_ENABLED = "lockscreen_rotation_enabled";
 
         /**
+         * Set the timeout of peek when pikcing up the device
+         * @hide
+         */
+        public static final String PEEK_PICKUP_TIMEOUT = "peek_pickup_timeout";
+
+        /**
           * Always show the battery status on the lockscreen
           * @hide
           */
